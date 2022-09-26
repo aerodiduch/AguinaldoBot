@@ -56,5 +56,8 @@ def actualizar_fecha(fecha):
 
 
 if __name__ == "__main__":
-    fechas_de_aguinaldos = get_aguinaldos()
-    dias_para_proximo_aguinaldo(fechas_de_aguinaldos, fecha_de_hoy)
+    try:
+        fechas_de_aguinaldos = get_aguinaldos()
+        dias_para_proximo_aguinaldo(fechas_de_aguinaldos, fecha_de_hoy)
+    except Exception as e:
+        print("Algo salio mal.", e)

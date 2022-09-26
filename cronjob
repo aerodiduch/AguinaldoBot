@@ -1,2 +1,2 @@
-0 18 * * * python3 /app/main.py
+0 20 * * * cd /app/ && python3 src/main.py
 
