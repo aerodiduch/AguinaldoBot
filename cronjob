@@ -1,0 +1,2 @@
+0 18 * * * python3 /app/main.py
+
