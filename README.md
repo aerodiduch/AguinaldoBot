@@ -3,6 +3,7 @@
 
 Este bot está creado en Python haciendo uso de ```tweepy```, un modulo que permite conectar con la API oficial de Twitter de forma sencilla. Vi la idea en un intercambio entre dos usuarios de Twitter y dije ¿por qué no?
 
+Pueden ver una demo funcional [clickeando acá](https://twitter.com/CuandoAguinaldo). 
 
 # Requisitos
 Esta guia asume que tenes tu poder una cuenta de Developer en Twitter y las llaves de acceso correspondiente para poder interactuar con la API.
